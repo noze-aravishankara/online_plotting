@@ -1,21 +1,33 @@
+/* Update .App class */
 .App {
   text-align: center;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Update .custom-navbar class */
+.custom-navbar {
+  background-color: white;
+  border-bottom: 2px solid lightgreen;
+  padding: 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Update .navbar-brand class */
+.navbar.custom-navbar .navbar-brand {
+  padding-left: 20px;
 }
 
+/* Update .navbar-nav .nav-item:last-child class */
+.navbar.custom-navbar .navbar-nav .nav-item:last-child {
+  padding-right: 20px;
+}
+
+/* Update .App-header class */
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +36,46 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Update .chart-container class */
+.chart-container {
+  flex: 1;
+  width: 60%;
+  max-width: 900px;
+  margin: 60px auto;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Update .app-footer class */
+.app-footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+  position: relative; /* Change position to relative */
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.chart-container svg {
+  border: 0px solid #ddd; /* Add your desired border style */
+  
+}
+
+
+/* App.css */
+.container {
+  display: flex;
+}
+
+.left-pane {
+  flex: 0 0 20%; /* Take up 20% of the parent's width */
+  background-color: #f7f7f7; /* Light gray background for visibility */
+  border-right: 1px solid #e0e0e0; /* A light border to separate the left pane from the content */
+  padding: 20px; /* Some spacing inside the pane */
+  min-height: 100vh; /* Make it full height */
+}
+
+.main-content {
+  flex: 1; /* Take up the remaining width */
+  padding: 20px;
 }
