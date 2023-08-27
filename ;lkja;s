@@ -1,0 +1,17 @@
+[33mcommit 1208fc8255f3571a48f1a41b423627bca85751b5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jayan <jayanok@gmail.com>
+Date:   Sat Aug 26 22:45:41 2023 -0400
+
+    v2 all plots features and several styling added
+
+[33mcommit d8886f7c38379eb71196c975df9a50ce05353555[m
+Author: Jayan <jayanok@gmail.com>
+Date:   Fri Aug 25 21:40:29 2023 -0400
+
+    Version 1 with upload and ploting features
+
+[33mcommit c4c6bbe21fce71506d76d1dee96f0a29e1e8ab99[m
+Author: Jayan <jayanok@gmail.com>
+Date:   Tue Aug 22 22:45:18 2023 -0400
+
+    Initialize project using Create React App
